@@ -2,6 +2,10 @@
 
 Clone da interface da Netflix construído com **React + Vite**. Interface pixel-close ao design original, com dados mockados e zero dependências externas de imagens.
 
+## Modelo
+
+Este projeto foi gerado pelo modelo **LongCtx**.
+
 ## Tecnologias
 
 | Camada | Stack |

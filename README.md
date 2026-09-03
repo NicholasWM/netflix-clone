@@ -84,9 +84,9 @@ src/
 
 ## Demo
 
-[![](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://netflix-clone-hpmxief66-nicholaswesleymazzeis-projects.vercel.app)
+[![](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://netflix-clone-personal.vercel.app)
 
-https://netflix-clone-hpmxief66-nicholaswesleymazzeis-projects.vercel.app
+https://netflix-clone-personal.vercel.app
 
 ## License
 

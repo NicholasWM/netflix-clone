@@ -4,7 +4,7 @@ Clone da interface da Netflix construído com **React + Vite**. Interface pixel-
 
 ## Modelo
 
-Este projeto foi gerado pelo modelo **LongCtx**.
+Este projeto foi gerado pelo modelo **Qwen3.6-35B-A3B** (A5000).
 
 ## Tecnologias
 

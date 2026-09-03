@@ -2,10 +2,6 @@
 
 Clone da interface da Netflix construído com **React + Vite**. Interface pixel-close ao design original, com dados mockados e zero dependências externas de imagens.
 
-## Modelo
-
-- **Modelo**: [LLamaSwap/LongCtx](https://huggingface.co/llamaswap) — modelo LongContext (100% produtivo no bench de avaliação)
-
 ## Tecnologias
 
 | Camada | Stack |

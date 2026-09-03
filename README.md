@@ -82,6 +82,12 @@ src/
 - **Fontes do Google** — Bebas Neue e Montserrat para tipografia similar à Netflix real
 - **Gradiente no Hero** — `linear-gradient` que simula a iluminação do banner real
 
+## Demo
+
+[![](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://netflix-clone-hpmxief66-nicholaswesleymazzeis-projects.vercel.app)
+
+https://netflix-clone-hpmxief66-nicholaswesleymazzeis-projects.vercel.app
+
 ## License
 
 MIT

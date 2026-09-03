@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg_6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0c1d"/>
+      <stop offset="100%" stop-color="#1a1a3e"/>
+    </linearGradient>
+    <radialGradient id="glow_6" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="vignette_6" cx="50%" cy="50%" r="65%">
+      <stop offset="50%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="#1a1a3e" stop-opacity="0.9"/>
+    </radialGradient>
+    <filter id="shadow_6">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.3"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="450" fill="url(#bg_6)"/>
+  <rect width="300" height="450" fill="url(#glow_6)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="150" r="100" fill="#7c3aed" opacity="0.08"/>
+  <circle cx="150" cy="150" r="75" fill="none" stroke="#7c3aed" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="150" cy="150" r="50" fill="none" stroke="#7c3aed" stroke-width="0.3" opacity="0.15"/>
+  
+  <!-- Icon -->
+  <g filter="url(#shadow_6)">
+    <text x="150" y="185" font-size="72" text-anchor="middle" dominant-baseline="central">🕳️</text>
+  </g>
+  
+  <!-- Decorative line -->
+  <line x1="105" y1="220" x2="195" y2="220" stroke="#7c3aed" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="105" cy="220" r="2" fill="#7c3aed" opacity="0.4"/>
+  <circle cx="150" cy="220" r="2" fill="#7c3aed" opacity="0.4"/>
+  <circle cx="195" cy="220" r="2" fill="#7c3aed" opacity="0.4"/>
+  
+  <!-- Title -->
+  <text x="150" y="378" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle" opacity="0.9">Interestelar</text>
+  
+  <!-- Bottom bar -->
+  <rect x="0" y="405" width="300" height="45" fill="#1a1a3e" opacity="0.8"/>
+  <line x1="0" y1="405" x2="300" y2="405" stroke="#7c3aed" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Vignette overlay -->
+  <rect width="300" height="450" fill="url(#vignette_6)"/>
+</svg>

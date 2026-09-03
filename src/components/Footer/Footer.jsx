@@ -1,35 +1,31 @@
 function Footer() {
-  const links = [
-    'Audiodescrição', 'Central de Ajuda', 'Cartão Pré-pago',
-    'Imprensa', 'Relações com Investidores', 'Carreiras',
-    'Termos de Uso', 'Privacidade', 'Avisos Legais',
-    'Preferências de Cookies', 'Informações Corporativas',
-    'Entre em Contato', 'Teste de Velocidade',
-    'Avisos de Aviso Legal', 'Somente no Netflix'
+  const columns = [
+    ['Audiodescrição', 'Central de Ajuda', 'Cartão Presente', 'Imprensa'],
+    ['Relações com Investidores', 'Carreiras', 'Avisos Legais', 'Preferências de Cookies'],
+    ['Cartão Pré-pago', 'Termos de Uso', 'Privacidade', 'Informações Corporativas'],
+    ['Entre em Contato', 'Teste de Velocidade', 'Somente no Netflix'],
   ];
-
-  const cols = Math.ceil(links.length / 4);
 
   return (
     <footer className="footer">
       <div className="footer-social">
-        <a href="#">📘</a>
-        <a href="#">📸</a>
-        <a href="#">🐦</a>
-        <a href="#">📺</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">i</a>
+        <a href="#" aria-label="Twitter">t</a>
+        <a href="#" aria-label="YouTube">y</a>
       </div>
-      <div className="footer-links">
-        {links.map((link, i) => {
-          const colIndex = Math.floor(i / cols);
-          const colStart = colIndex * cols;
-          return (
-            <a href="#" key={link} className="footer-link">
-              {link}
-            </a>
-          );
-        })}
+      <div className="footer-grid">
+        {columns.map((col, ci) => (
+          <div key={ci} className="footer-column">
+            {col.map(link => (
+              <a key={link} href="#" className="footer-link">
+                {link}
+              </a>
+            ))}
+          </div>
+        ))}
       </div>
-      <p className="footer-copy">© 2024 Netflix Clone — Feito por diversão</p>
+      <p className="footer-copy">© 2024 Netflix Clone</p>
     </footer>
   );
 }
